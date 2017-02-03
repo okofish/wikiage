@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WikiAge Options</title>
+  <style>
+    body {
+      padding: 10px;
+    }
+    #options-container {
+      margin-bottom: 15px;
+    }
+    #sites-container {
+      padding-top: 5px;
+    }
+    #sites-container input {
+      margin-right: 5px;
+      margin-bottom: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="options-container">
+    Enabled sites:
+    <div id="sites-container"></div>
+    <br>
+    
+    <label>
+      <input type="checkbox" id="debug">
+      Debug mode (enables console logging)
+    </label>
+  </div>
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+</body>
+</html>

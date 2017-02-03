@@ -1,0 +1,30 @@
+#wikiage-overlay {
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+  mix-blend-mode: hard-light;
+  opacity: 0;
+  background-position: center;
+  background-repeat: repeat;
+  pointer-events: none;
+}
+
+#wikiage-cracks {
+  width: 100%;
+  z-index: 10000;
+  position: absolute;
+  opacity: 0;
+  background-position: center;
+  background-repeat: repeat;
+  pointer-events: none;
+}
+
+.goog-te-spinner {
+  /* This is some weird thing Google Translate adds when it translates pages.
+     It messes up the sidebar when the overlay is on, so we're hiding it. */
+  display: none !important;
+}
+
+.mw-wiki-logo {
+  transition: background-image 2s;
+}
