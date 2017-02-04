@@ -5,11 +5,11 @@
     return pattern.match(/[^\*\.\:\/]+\.[^\s\/]{2,}/)[0]
   });
 
-  var minAge = 67; // p25 of article ages
-  var maxAge = 440; // p75 of article ages
-  var superAge = 2011; // p99 of article ages
-  // contact me if you're interested in the data i used to get these numbers
-  // there is lots of it.
+  var minAge = 52; // p25 of article ages
+  var maxAge = 356; // p75 of article ages
+  var superAge = 1838; // p99 of article ages
+  // contact me if you're interested in the data i used to get these numbers - 
+  // there's about 150MB of it.
 
   chrome.storage.sync.get({
     debug: false,
