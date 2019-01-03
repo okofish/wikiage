@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Wikiage",
   "short_name": "Wikiage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Applies an aging effect to Wikipedia pages depending on time since their last edit.",
   "icons": {
     "16": "images/icon-16.png",
